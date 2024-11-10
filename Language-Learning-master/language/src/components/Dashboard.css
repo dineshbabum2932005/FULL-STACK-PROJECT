@@ -1,0 +1,7 @@
+/* src/components/Dashboard.css */
+.dashboard-background {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding-top: 100px; /* To avoid overlap with fixed navbar */
+  }
+  

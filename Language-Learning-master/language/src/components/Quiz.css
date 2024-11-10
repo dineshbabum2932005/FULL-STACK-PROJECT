@@ -1,0 +1,114 @@
+/* Styling for the certificate */
+.certificate {
+    text-align: center;
+    padding: 40px;
+    border: 5px solid #007bff; /* 5px border around the certificate */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    position: relative;
+}
+
+/* Header section */
+.certificate header {
+    font-size: 60px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 40px;
+}
+
+/* Subheader section */
+.certificate h2 {
+    font-size: 40px;
+    color: #2d6a4f;
+    margin-bottom: 30px;
+}
+
+/* Main content area */
+.certificate .content {
+    font-size: 24px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Highlighted text for user's name, course, and score */
+.certificate .highlight {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Separator line between sections */
+.certificate .separator {
+    border-top: 5px solid #007bff;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+/* Footer section for signatures */
+.certificate footer {
+    font-size: 22px;
+    color: #2d6a4f;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    font-style: italic;
+}
+
+/* Button for downloading the certificate */
+.certificate button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.certificate button:hover {
+    background-color: #0056b3;
+}
+
+/* Thank You message */
+.certificate .thank-you {
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Adjusting for smaller screens */
+@media screen and (max-width: 768px) {
+    .certificate {
+        padding: 20px;
+    }
+
+    .certificate header {
+        font-size: 48px;
+    }
+
+    .certificate h2 {
+        font-size: 32px;
+    }
+
+    .certificate .content {
+        font-size: 20px;
+    }
+
+    .certificate .highlight {
+        font-size: 24px;
+    }
+
+    .certificate button {
+        font-size: 16px;
+    }
+}
